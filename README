@@ -1,0 +1,22 @@
+
+    Word Wrap 0.1
+
+by Hasan N. Genc
+
+======================
+    OVERVIEW
+======================
+
+word-wrap is a filter program that word-wraps text you wish to output onto your terminal screen.
+
+======================
+    INSTRUCTIONS
+======================
+
+word-wrap reads text from stdin and outputs the formatted version to your terminal screen. If you redirect stdout to a file, the output may not appear exactly as it would on your terminal screen.
+
+For more detailed instructions, call "word-wrap -h".
+
+Examples:
+    word-wrap < README
+    cat README | word-wrap -w 80
